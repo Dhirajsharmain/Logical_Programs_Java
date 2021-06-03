@@ -21,25 +21,25 @@ public class DayOfWeek {
 
         switch (dayValue) {
             case 0:
-                System.out.println(day+"/"+month+"/"+year+" is Sunday");
+                System.out.println(day + "/" + month + "/" + year + " is Sunday");
                 break;
             case 1:
-                System.out.println(day+"/"+month+"/"+year+" is Monday");
+                System.out.println(day + "/" + month + "/" + year + " is Monday");
                 break;
             case 2:
-                System.out.println(day+"/"+month+"/"+year+" is Tuesday");
+                System.out.println(day + "/" + month + "/" + year + " is Tuesday");
                 break;
             case 3:
-                System.out.println(day+"/"+month+"/"+year+" is Wednesday");
+                System.out.println(day + "/" + month + "/" + year + " is Wednesday");
                 break;
             case 4:
-                System.out.println(day+"/"+month+"/"+year+" is Thursday");
+                System.out.println(day + "/" + month + "/" + year + " is Thursday");
                 break;
             case 5:
-                System.out.println(day+"/"+month+"/"+year+" is Friday");
+                System.out.println(day + "/" + month + "/" + year + " is Friday");
                 break;
             case 6:
-                System.out.println(day+"/"+month+"/"+year+" is Saturday");
+                System.out.println(day + "/" + month + "/" + year + " is Saturday");
                 break;
         }
 
