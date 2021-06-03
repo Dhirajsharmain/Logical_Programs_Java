@@ -26,4 +26,18 @@ public class LogicalUtility {
         return count;
 
     }
+
+    public int dayOfWeek(int day, int month, int year) {
+        int y1, x, m, weekDay;
+        y1 = year - (14 - month) / 12;
+        x = y1 + (y1 / 4) - (y1 / 100) + (y1 / 400);
+        m = month + 12 * ((14 - month) / 12) - 2;
+        weekDay = (day + x + 31 * m / 12) % 7;
+        return weekDay;
+    }
+
+    public void elapsedTime(long startTime, long endTime) {
+        long temp = endTime - startTime;
+        System.out.println("Elapsed Time is : " + temp);
+    }
 }
