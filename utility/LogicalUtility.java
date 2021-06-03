@@ -40,4 +40,17 @@ public class LogicalUtility {
         long temp = endTime - startTime;
         System.out.println("Elapsed Time is : " + temp);
     }
+
+    public double FahrenheitToCelsius(double temperatureInFahrenheit) {
+        double temperatureInCelsius;
+        temperatureInCelsius = ((temperatureInFahrenheit - 32) * 5) / 9;
+        return temperatureInCelsius;
+    }
+
+    public double CelsiusToFahrenheit(double temperatureInCelsius) {
+        double temperatureInFahrenheit;
+        temperatureInFahrenheit = ((temperatureInCelsius * 9) / 5) + 32;
+        return temperatureInFahrenheit;
+    }
+
 }
