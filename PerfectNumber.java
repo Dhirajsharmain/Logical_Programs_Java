@@ -2,7 +2,7 @@ package bridgelabz;
 
 import java.util.Scanner;
 
-public class PerfactNumber {
+public class PerfectNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number : ");
