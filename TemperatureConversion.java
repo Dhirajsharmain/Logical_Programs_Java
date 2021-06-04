@@ -9,14 +9,14 @@ public class TemperatureConversion {
         LogicalUtility utility = new LogicalUtility();
         double temperatureInFerenheit, temperatureInCelcius;
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter 1 For Fahrenheit to Celcius and 2 for Celsius to Fahrenheit : ");
+        System.out.print("Enter 1 For Fahrenheit to Celsius and 2 for Celsius to Fahrenheit : ");
         int check = scanner.nextInt();
 
         if (check == 1) {
-            System.out.print("Enter Temperature in Ferenheit : ");
+            System.out.print("Enter Temperature in Fahrenheit : ");
             temperatureInFerenheit = scanner.nextDouble();
             temperatureInCelcius = utility.FahrenheitToCelsius(temperatureInFerenheit);
-            System.out.println("Fahrenheit to Celcius of " + temperatureInFerenheit + " is " + temperatureInCelcius);
+            System.out.println("Fahrenheit to Celsius of " + temperatureInFerenheit + " is " + temperatureInCelcius);
         } else if (check == 2) {
             System.out.print("Enter Temperature in Celsius : ");
             temperatureInCelcius = scanner.nextDouble();
